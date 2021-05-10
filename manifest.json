@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Meet Nanoleaf Signaller",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "js": ["umbrella.min.js", "content.js"]
+    }
+  ],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "host_permissions": [
+    "http://192.168.1.66:16021/*"
+  ],
+  "permissions": [
+    "http://192.168.1.66:16021/*/"
+  ]
+}
