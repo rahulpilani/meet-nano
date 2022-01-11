@@ -14,9 +14,6 @@
       "scripts": ["background.js"],
       "persistent": false
   },
-  "host_permissions": [
-    "http://192.168.1.66:16021/*"
-  ],
   "permissions": [
     "http://192.168.1.66:16021/*/"
   ]

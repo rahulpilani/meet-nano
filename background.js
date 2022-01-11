@@ -23,7 +23,7 @@ chrome.extension.onMessage.addListener(
     }
   );
 
-  var url = "http://192.168.1.66:16021/api/v1/XGr4xHIDV94rukGkAji4fFozGq4hkExr/";
+  var url = "http://192.168.1.66:16021/api/v1/dXpj12OGoLW0HsINbM8jBsyT00Sq2NEy/";
 
   function getOnState() {
     var x = new XMLHttpRequest();
